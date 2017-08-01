@@ -1,0 +1,78 @@
+.nav > li > a.pair-first {padding-right:5px;}
+.nav > li > a.pair-second {padding-left:0;}
+.bg-success {background-color: #ccffbb; border:1px solid #cccccc;}
+.bg-danger {background-color: #ffbbcc; border:1px solid #cccccc;}
+.highlight {padding:0.5em; background-color:#dff0d8;}
+.table-break-words {table-layout:fixed; width:100%;}
+.td-break-words {word-wrap: break-word;}
+
+
+/* transparentfuture */
+/* transparentfuture/static/transparentfuture/css/transparentfuture.css */
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+.body {
+    /* Margin bottom by footer height */
+    /*margin-bottom: 60px;*/
+    /* Need for main page */
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.body .page-wrapper {
+    padding: 60px 15px 0;
+}
+.container .text-muted {
+    margin: 20px 0;
+}
+
+.footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+code {
+    font-size: 80%;
+}
+
+/*------------------------------------------*/
+/*	 Language switcher
+/*------------------------------------------*/
+.language-menu {
+    padding: 0;
+    border: none;
+    border-top: 1px solid transparent;
+}
+.language-menu button{
+    border: none;
+    box-shadow: none;
+}
+
+.language-menu .form-language{
+    margin-bottom: 0;
+}
+
+.form-language button{
+    border-radius:0;
+}
+
+.navbar-inverse {
+    background-color: #222;
+    border-color: #080808;
+}

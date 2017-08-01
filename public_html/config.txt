@@ -1,0 +1,11 @@
+default.name=TFChain                   # name to display in the web interface
+default.rpchost=masternode              # IP address of MultiChain node
+default.rpcport=8000                  # see rpc-port from chain parameters
+default.rpcuser=multichainrpc          # username for RPC from multichain.conf
+default.rpcpassword=this-is-insecure-change-it                   # password for RPC from multichain.conf
+
+# You can configure support for other nodes using a word other than 'default':
+#
+# another.name=...
+# another.rpchost=...
+# ...etc...
